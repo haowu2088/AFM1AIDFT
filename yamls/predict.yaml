@@ -1,0 +1,30 @@
+# super parameters
+batch_size: 512 #  A larger batch size can speed up the prediction process if the computational resources allow.
+shuffle: false  # typical for prediction tasks where maintaining the order of data is important for matching predictions back to input data correctly.
+radius: 20
+sample_size: 10
+max_num_nbr: 12
+dmin: 0
+step: 0.2
+num_workers: 4
+
+log_batch_freq: 2
+drop_rate: 0    #  Set to 0, indicating that dropout is disabled during prediction to use the full capabilities of the model.
+
+# network architecture
+crystal_gnn_config:
+  atom_fea_len: 512
+  n_conv: 3
+head_output_dim: 2
+
+
+# data path
+experiment_name: '0'
+root_dir: 'data'
+processed_dir: 'processed_candidate'
+
+ckpt_path: 'checkpoints/checkpoint_{}' 
+
+output_file: 'out/predict_{}.csv'
+
+

@@ -1,0 +1,50 @@
+# random seed
+random_seed: 666
+
+# data precision
+precision: float32
+
+# super parameters
+epochs: 500        # big data 500
+batch_size: 512   
+lr: 0.001
+lr_milestones: [100]
+weight_decay: 0
+momentum: 0.9
+num_workers: 8
+radius: 20
+ratio: 711
+sample_size: 10
+max_num_nbr: 12
+dmin: 0
+step: 0.2
+shuffle: true
+
+save_epoch_freq: 5
+log_epoch_freq: 2
+log_batch_freq: 5
+
+# network architecture
+crystal_gnn_config:
+  atom_fea_len: 512
+  n_conv: 3
+head_output_dim: 2
+drop_rate: 0.25
+
+# experiment name and path
+experiment_name: '0'
+comment: 'no comments'
+load_pretrain: true     # Flags to specify whether to initialize training from a pre-trained state
+continuous_train: false # whether to continue training from a previous state
+pre_ckpt_path: 'checkpoints/pre_checkpoint_{}'
+ckpt_path: 'checkpoints/checkpoint_{}'
+
+# data path
+root_dir: 'data'
+processed_dir:
+  positive: 'processed_positive'
+  negative: 'processed_negative'
+figs_train: 'figs/train_{}.pdf'
+
+# log
+log_file: 'logs/out_{}.log'
