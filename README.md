@@ -1,5 +1,3 @@
-# AI+DFT Workflow for PT-symmetric AFM1 Materials
-
 This repository contains the code, scripts, and data lists used in the paper:  
 **"AI-predicted PT-symmetric magnets" (Hao Wu and Daniel F. Agterberg, 2025).**
 
