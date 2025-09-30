@@ -13,5 +13,3 @@ sh pretrain.sh
 sh train.sh     
 
 sh predict.sh
-
-sh extract.sh
