@@ -3,8 +3,6 @@ This repository contains the code, scripts, and data lists used in the paper:
 
 ---
 
-## Scope
-
 We use an **established AI+DFT workflow** as a **tool** to identify PT-symmetric odd-parity AFM1 candidates and analyze their potential emergent responses.  
 - We do **not** propose a new machine-learning method.  
 - We apply the GNN framework of Gao *et al.* ([MatAltMag](https://github.com/zfgao66/MatAltMag), MIT license) **without architectural changes**.  
