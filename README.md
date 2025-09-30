@@ -13,7 +13,4 @@ We use an **established AI+DFT workflow** as a **tool** to identify PT-symmetric
 - We apply the GNN framework of Gao *et al.* ([MatAltMag](https://github.com/zfgao66/MatAltMag), MIT license) **without architectural changes**.  
 - Our contribution is in **AFM1-specific dataset preparation** (negative sample construction) and **DFT automation**, leading to new AFM1 material candidates and their physical analysis.  
 
----
-
-## Repository Contents
 
