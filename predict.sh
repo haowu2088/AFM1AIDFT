@@ -1,0 +1,1 @@
+accelerate launch --config_file yamls/accelerate.yaml predict.py --file yamls/predict.yaml
